@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Poppins&family=Roboto+Condensed:wght@400;700&display=swap');
+
+*
+table{
+width: 100%;
+margin: 4% auto;
+border: 5px solid white;
+border-collapse: collapse;
+font-family: system-ui, -apple-system, Roboto;
+font-style: bold;
+text-align: left;
+}
+
+td, th{
+border: 5px solid  white;
+padding: 30px;
+color: white;
+}
+
+th{
+background: #86006f;
+}
+
+tr:nth-of-type(even){
+  background-color: #f37ecf;
+}
+tr:nth-of-type(odd){
+  background-color: #af5593;
+}
